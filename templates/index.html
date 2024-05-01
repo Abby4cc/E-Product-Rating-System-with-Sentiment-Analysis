@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Product Rating System</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+	</head>
+	<body>
+		<div class="page-wrap">
+
+			<!-- Main -->
+				<section id="main">
+
+					<!-- Banner -->
+						<section id="banner" style="background-image: url(../static/banner.jpg)">
+							<div class="inner">
+								<h1>Welcome</h1>
+								<p>PRODUCT RATING SYSTEM USING <b>TEXT BASED</b><br> SENTIMENT ANALYSIS</a></p>
+								<ul class="actions">
+									<li><a href="#galleries" class="button alt scrolly big"></a></li>
+								</ul>
+							</div>
+						</section>
+
+					<!-- Gallery -->
+						<section id="galleries">
+
+							<!-- Product Galleries -->
+								<div class="gallery"  >
+									<header class="special">
+										<h2>Our Products</h2>
+									</header>
+									<div class="content">
+										<div class="media">
+											<a href="{{ url_for('jacket') }}"><img src="{{ url_for('static', filename='images/01.jpg') }}" alt="Image" title="This right here is a caption." /></a>
+											<h3 id="mytext">Chunky heel</h3>
+											<h4 id="mytext1">ksh. 2,500 &nbsp &nbsp | &nbsp &nbsp 3.5 Stars</h4>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('jacket') }}"><img src="{{ url_for('static', filename='images/02.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Crossbody Bags</h3>
+											<h4 id="mytext1">ksh. 4,500 &nbsp &nbsp | &nbsp &nbsp 4.0 Stars</h4>
+										</div>
+										<div class="media">
+											<a href="#"><img src="{{ url_for('static', filename='images/03.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Dinner Bag</h3>
+											<h4 id="mytext1">ksh. 2,500 &nbsp &nbsp | &nbsp &nbsp 2.5 Stars</h4>
+										</div>
+										<div class="media">
+											<a href="#"><img src="{{ url_for('static', filename='images/04.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Leather bag</h3>
+											<h4 id="mytext1">ksh. 5,500 &nbsp &nbsp | &nbsp &nbsp 3.5 Stars</h4>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('jacket') }}"><img src="{{ url_for('static', filename='images/05.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">FireOn Heels</h3>
+											<h4 id="mytext1">ksh. 5,500 &nbsp &nbsp | &nbsp &nbsp 3.5 Stars</h4>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('jacket') }}"><img src="{{ url_for('static', filename='images/06.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Contured Stiletto</h3>
+											<h4 id="mytext1">ksh. 4,500 &nbsp &nbsp | &nbsp &nbsp 3.5 Stars</h4>
+										</div>
+										<div class="media">
+											<a href="{{ url_for('jacket') }}"><img src="{{ url_for('static', filename='images/10.jpg') }}" alt="" title="This right here is a caption." /></a>
+											<h3 id="mytext">Man bag</h3>
+											<h4 id="mytext1">ksh. 4,500 &nbsp &nbsp | &nbsp &nbsp 3.5 Stars</h4>
+										</div>
+								
+									</div>
+									<footer>
+										<a href="#" class="button big"></a>
+									</footer>
+								</div>
+						</section>
+
+					<!-- Footer -->
+						<footer id="footer">
+							<div class="">
+								
+							</div>
+						</footer>
+				</section>
+		</div>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.poptrox.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>
